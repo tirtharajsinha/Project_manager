@@ -17,8 +17,9 @@ body {
 .container {
   display: flex;
   width: 1500px;
-  min-height: 60vh;
+  height: 70vh;
   padding: 0 20px;
+  overflow-y: auto;
 }
 
 .board__inner {
