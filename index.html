@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' href='https://www.w3schools.com/w3css/4/w3.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="style.css">
+    <title>Project Management</title>
+</head>
+
+<body>
+    <section class="board">
+        <div class="board__inner container">
+            <div class="board__ideas col">
+                <div class="board__ideas-header header">Ideas</div>
+                <div class="board__ideas-area area">
+                    <div class="board__tasks-item item" draggable="true"><span class="tag">Idea</span>
+                        <p>This is task first of my project. Do it Today.</p>
+                    </div>
+                    <div class="board__tasks-item item" draggable="true"><span class="tag">Idea</span>
+                        <p>This is task second of my project. Do it yesterday.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="board__tasks col">
+                <div class="board__tasks-header header">Tasks</div>
+                <div class="board__tasks-area area">
+
+                </div>
+            </div>
+            <div class="board__bugs col">
+                <div class="board__bugs-header header">Bugs</div>
+                <div class="board__bugs-area area"></div>
+            </div>
+            <div class="board__dev col">
+                <div class="board__dev-header header">Dev</div>
+                <div class="board__dev-area area"></div>
+            </div>
+            <div class="board__complete col">
+                <div class="board__complete-header header">Complete</div>
+                <div class="board__complete-area area"></div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>

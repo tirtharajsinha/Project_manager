@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap");
+@import url(Nord/nord.css);
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  background: var(--nord0);
+}
+.board {
+  width: 100%;
+  overflow-x: auto;
+}
+.container {
+  display: flex;
+  width: 1500px;
+  padding: 0 20px;
+}
+
+.board__inner {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 100px;
+  overflow-x: auto;
+}
+.board__ideas-header {
+  color: #fff;
+  background: var(--nord15);
+}
+.board__tasks-header {
+  color: #fff;
+  background: var(--nord10);
+}
+.board__bugs-header {
+  color: #fff;
+  background: var(--nord11);
+}
+.board__dev-header {
+  color: #fff;
+  background: var(--nord13);
+}
+.board__complete-header {
+  color: #fff;
+  background: var(--nord14);
+}
+
+.col {
+  margin-bottom: 50px;
+}
+
+.header {
+  width: 270px;
+  margin-bottom: 20px;
+  padding: 15px 0;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.header:not(:last-child) {
+  margin-right: 20px;
+}
+
+.area {
+  max-width: 270px;
+  min-height: 150px;
+  transition: 0.3s;
+  padding-bottom: 150px;
+}
+
+.tag {
+  display: inline-flex;
+  margin-bottom: 10px;
+  padding: 2px 4px;
+  color: #fff;
+  font-size: 14px;
+  background: var(--nord15);
+  border-radius: 5px;
+}
+
+.item {
+  width: 100%;
+  padding: 10px 10px;
+  background: var(--nord3);
+  border-radius: 5px;
+  cursor: -webkit-grab;
+  cursor: grab;
+  color: var(--nord6);
+}
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}
+.item:active {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+
+.hide {
+  display: none;
+}
+
+.hovered {
+  background: #ffffff33;
+  border-radius: 5px;
+}
