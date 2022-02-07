@@ -23,9 +23,9 @@ body {
 
 .board__inner {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 0px;
   overflow-x: auto;
 }
 .board__ideas-header {
@@ -54,7 +54,7 @@ body {
 }
 
 .header {
-  width: 270px;
+  width: 250px;
   margin-bottom: 20px;
   padding: 15px 0;
   font-size: 20px;
@@ -67,7 +67,7 @@ body {
 }
 
 .area {
-  max-width: 270px;
+  max-width: 250px;
   min-height: 150px;
   transition: 0.3s;
   padding-bottom: 150px;
